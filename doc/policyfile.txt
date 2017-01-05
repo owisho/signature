@@ -1,0 +1,10 @@
+keystore "ijvmkeys";
+
+grant signedBy "friend"{
+	permission java.io.FilePermission "question.txt" ,"read";
+	permission java.io.FilePermission "answer.txt" ,"read";
+};
+
+grant signedBy "stranger"{
+	permission java.io.FilePermission "question.txt" ,"read";
+};
