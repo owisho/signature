@@ -4,7 +4,7 @@ doc目录存放了测试文件相关<br />
 
 
 ##使用命令签名时用到的命令为(windows)
-1.打jar包命令：jar cvf xxx.jar packagename\javaname.class<br />  
+1.打jar包命令：jar cvf xxx.jar packagename\javaname.class<br />
 2.生成保存秘钥对的文件：keytool -genkey -alias friend -keypass friend4life -validity 10000 -keystore ijvmkeys<br />
 命令说明：-validity 10000这个命令行说明这个名秘钥对将在10000天之内有效<br />
 其中生成ijvmkeys这个密钥对存储文件时，需要赋值一个密码，书中例子赋予的密码为：ijvm2ed<br />
